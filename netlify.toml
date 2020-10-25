@@ -3,9 +3,4 @@
   to = "https://saasworksuite.com:splat"
   status = 200
   force = true
-
-[[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/access"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
+  headers = {Access-Control-Allow-Origin= "*"}
