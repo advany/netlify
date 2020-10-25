@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/"
+  to = "https://saasworksuite.com/saasfeatures"
+  status = 200
+  force = true
