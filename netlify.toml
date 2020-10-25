@@ -1,5 +1,5 @@
 [[redirects]]
   from = "/"
-  to = "http://saasworksuite.com/saasfeatures"
+  to = "https://saasworksuite.com/saasfeatures"
   status = 200
   force = true
