@@ -1,6 +1,6 @@
 [[redirects]]
-  from = "*"
-  to = "https://saasworksuite.com:splat"
+  from = "/*"
+  to = "https://saasworksuite.com/:splat"
   status = 200
   force = true
   headers = {Access-Control-Allow-Origin= "*"}
