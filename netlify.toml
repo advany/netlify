@@ -3,4 +3,4 @@
   to = "https://test.saasworksuite.com/:splat"
   status = 200
   force = true
-  headers = {{Access-Control-Allow-Origin= "https://test.saasworksuite.com"}, {Access-Control-Allow-Credentials= true}, {Access-Control-Allow-Methods= "GET, POST"}, {Access-Control-Allow-Headers= "Content-Type, *"}}
+  headers = {Access-Control-Allow-Origin= "https://test.saasworksuite.com", Access-Control-Allow-Credentials= true, Access-Control-Allow-Methods= "GET, POST", Access-Control-Allow-Headers= "Content-Type, *"}
