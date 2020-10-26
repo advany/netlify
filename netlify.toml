@@ -8,4 +8,4 @@
   status = 200
   force = true
   headers = {Access-Control-Allow-Origin= "*"}
-  query = {path = “:path”}
+  query = {path = ":path"}
