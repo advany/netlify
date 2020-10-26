@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/*"
-  to = "http://netlify-test-app.bubbleapps.io/:splat"
+  to = "https://test.saasworksuite.com/:splat"
   status = 200
   force = true
   headers = {Access-Control-Allow-Origin= "*"}
