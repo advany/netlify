@@ -1,6 +1,11 @@
+[build]
+  command = “npm install && npm run build”
+  functions = “functions/”
+
 [[redirects]]
   from = "/*"
-  to = "https://saasworksuite.com/:splat"
+  to = "/.netlify/functions/servers/:splat"
   status = 200
   force = true
   headers = {Access-Control-Allow-Origin= "*"}
+  query = {path = “:path”}
