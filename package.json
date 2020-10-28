@@ -1,0 +1,15 @@
+{
+  "name": "serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api/proxy.js",
+  "scripts": {
+    "build": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bhaskar Tiwari",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.21.0"
+  }
+}
