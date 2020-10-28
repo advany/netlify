@@ -16,7 +16,7 @@ exports.handler = (event) => {
     const queryString = new URLSearchParams(event.queryStringParameters).toString();
 
     if(event.path === '' || event.path === '/') {
-      pre = '/index2';
+      pre = '';
     }
 
     axios({
