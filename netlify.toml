@@ -1,5 +1,7 @@
 [build]
+  base = "/"
   functions = "api"
+  command = "npm install"
 
 [[redirects]]
   from = "/*"
